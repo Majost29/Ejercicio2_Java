@@ -17,7 +17,8 @@ class Main {
       // Triángulo Equilatero
       
       if(lado1==base && lado2==base && lado1==lado2){
-        double area=(Math.sqrt(3)*(lado1*lado1))/4;
+        double altura=(Math.sqrt(3)*lado1)/2;
+        double area=((base*altura)/2);
         System.out.println("El area es;"+area);
         System.out.println("Los Datos ingresados corresponden a un triangulo equilatero");
       }else{
